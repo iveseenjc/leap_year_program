@@ -23,7 +23,7 @@ const calculateButton = document.querySelector('button.calculate-button');
 const resultWindow = document.querySelector('.results-window');
 
 // Hide the "Result Window" when the website first starts
-// resultWindow.style.visibility = 'hidden';
+resultWindow.style.visibility = 'hidden';
 
 /* 
 	LEAP YEAR CHECK: Determines if the given year is a leap year or not. 
